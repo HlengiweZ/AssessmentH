@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "server-debug",
+            "program": "${workspaceFolder}/server/index.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "client-debug",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
